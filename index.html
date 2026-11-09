@@ -3,8 +3,14 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Setomi: your plan, set by set</title>
-<meta name="description" content="A workout planner and logger for people who lift. Plans and history stay on your iPhone.">
+<title>Setomi: bring your plan, lift</title>
+<meta name="description" content="Import any workout plan from a PDF, spreadsheet, photo or notes, then log it on iPhone and Apple Watch. Free, no account, no ads. Join the waitlist.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Setomi: bring your plan, lift">
+<meta property="og:description" content="Import any workout plan, log it on iPhone and Apple Watch. Free, no account, no ads. Everything stays on your devices.">
+<meta property="og:image" content="https://phoodie.github.io/Setomi/img/og.jpg">
+<meta property="og:url" content="https://phoodie.github.io/Setomi/">
+<meta name="twitter:card" content="summary_large_image">
 <link rel="icon" href="img/icon.png">
 <link rel="stylesheet" href="style.css">
 </head>
@@ -12,36 +18,116 @@
 <div class="wrap">
 <header class="top">
 <a class="brand" href="./"><img src="img/icon.png" alt="">Setomi</a>
-<nav><a href="privacy.html">Privacy</a><a href="support.html">Support</a></nav>
+<nav><a href="privacy.html">Privacy</a><a href="support.html">Support</a><a class="navcta" href="#join">Join the waitlist</a></nav>
 </header>
 <main>
 <section class="hero">
 <div class="bubble" style="width:220px;height:220px;right:-60px;top:-50px"></div>
 <div class="bubble" style="width:140px;height:140px;left:-40px;top:240px"></div>
-<h1>Your plan,<br>set by set</h1>
-<p>Bring the plan you already have, log every set with a rest timer, and watch your lifts climb. No account. Everything stays on your iPhone and Apple Watch.</p>
-<span class="pill">Coming soon to the App Store</span>
+<h1>Bring your plan.<br>Lift.</h1>
+<p>Import a PDF, spreadsheet, photo or pasted notes and lift straight from it. Last time's weights ready, a rest timer on your lock screen, an Apple Watch app. Free, no account, no ads.</p>
+<form class="waitlist" data-waitlist novalidate>
+<label class="sr" for="email-hero">Email address</label>
+<input id="email-hero" type="email" name="email" placeholder="you@email.com" autocomplete="email" required>
+<input class="hp" type="text" name="company" tabindex="-1" autocomplete="off" aria-hidden="true">
+<button type="submit">Join the waitlist</button>
+<p class="note" role="status" aria-live="polite">One email when Setomi is on the App Store. Nothing else.</p>
+</form>
 <div class="shots">
-<img src="img/01-home.jpg" alt="Setomi home screen with the next workout and weekly progress">
-<img src="img/02-workout.jpg" alt="Logging sets with the rest timer running">
-<img src="img/04-library.jpg" alt="The exercise library with drawn icons">
-<img src="img/05-journal.jpg" alt="The workout journal, filtered by month">
+<img src="img/home.jpg" width="330" height="715" alt="Setomi Home: a Get started checklist, the next workout with a play button, this week and streak tiles">
+<img src="img/workout.jpg" width="330" height="715" alt="Logging a workout: a set done, the rest timer running and a new best on Back Squat">
+<img src="img/progress.jpg" width="330" height="715" alt="Progress: strength score, estimated one-rep max chart and reports">
 </div>
 </section>
 
-<div class="grid">
-<div class="card"><div class="dot">&#128229;</div><h3>Bring your own plan</h3><p>Import a PDF, spreadsheet, pasted notes or a photo. Check what it found before anything is saved.</p></div>
-<div class="card"><div class="dot">&#9201;</div><h3>Log without fuss</h3><p>One screen per day, last time's weight ready, and a rest timer that keeps up on the lock screen.</p></div>
-<div class="card"><div class="dot">&#128200;</div><h3>See progress</h3><p>Top-set charts, estimated one-rep max and a journal of every workout with notes you can share as a PDF.</p></div>
-<div class="card"><div class="dot">&#127947;</div><h3>About 475 lifts</h3><p>Including Olympic, CrossFit and Hyrox. Muscles worked, a short cue and a drawn icon that moves. Tell Setomi your gym and it hides what's missing.</p></div>
-<div class="card"><div class="dot">&#8986;</div><h3>Apple Watch</h3><p>Log sets with the Digital Crown, feel the rest timer on your wrist, and save heart rate and calories to Health.</p></div>
-<div class="card"><div class="dot">&#128274;</div><h3>Yours and private</h3><p>No account, no ads, no tracking. Your data lives on your iPhone and you can back it up to a file.</p></div>
-<div class="card"><div class="dot">&#10084;&#65039;</div><h3>Apple Health, optional</h3><p>Save finished workouts to Health and read bodyweight, only if you choose to connect it.</p></div>
+<section class="split">
+<div>
+<h2>Your plan, wherever it lives</h2>
+<p>A trainer's PDF, a spreadsheet, a note on your phone, a photo of the whiteboard. Setomi reads it on your iPhone, shows you what it found, and builds your days. Nothing is saved until you say so.</p>
+<ul class="ticks"><li>PDF, spreadsheet, pasted notes or a photo</li><li>Check and fix everything before it's saved</li><li>Or start from a template, or build your own</li></ul>
 </div>
+<img src="img/import.jpg" width="330" height="715" alt="The Import screen: choose a file, paste notes or use a photo of your plan">
+</section>
+
+<section class="split flip">
+<div>
+<h2>Made for the gym floor</h2>
+<p>One screen per day. Tap a set when you finish it. Last time's weight is already there, the rest timer runs on your lock screen and Dynamic Island, and the app tells you when it's time to add weight.</p>
+<ul class="ticks"><li>Log with the Digital Crown on Apple Watch</li><li>Swap any lift for a close match, or shuffle the day</li><li>A friendly checklist and quick tour for your first week</li></ul>
+</div>
+<img src="img/workout.jpg" width="330" height="715" alt="A workout day with Back Squat and Romanian Deadlift, set bubbles and last time's weights">
+</section>
+
+<section class="split">
+<div>
+<h2>See yourself get stronger</h2>
+<p>Estimated one-rep maxes, top-set charts, new records and weekly streaks. A muscle map shows what you've trained, and a monthly report and year in review look back.</p>
+<ul class="ticks"><li>About 480 lifts, each with muscles, a cue and a drawn icon</li><li>Home screen and lock screen widgets</li><li>Eight themes and nine app icons</li></ul>
+</div>
+<img src="img/muscles.jpg" width="330" height="715" alt="The Body page: a front and back muscle map shaded by sets trained">
+</section>
+
+<section class="split flip">
+<div>
+<h2>Hand it to your coach</h2>
+<p>Export your workout journal as a clean PDF with progress graphs, or as a spreadsheet or full backup. Send it to a coach or trainer, or keep it safe in Files.</p>
+<ul class="ticks"><li>PDF with graphs, CSV and JSON</li><li>Share a plan with a friend as a file</li><li>Back up and restore any time</li></ul>
+</div>
+<img src="img/coach.jpg" width="330" height="715" alt="The Export screen with a readable PDF report selected">
+</section>
+
+<section class="strip" aria-label="Also">
+<span>Free, no subscription</span><span>No account</span><span>No ads or tracking</span><span>Data stays on your iPhone</span><span>Apple Health, only if you choose</span>
+</section>
+
+<section class="cta" id="join">
+<h2>Be first in line</h2>
+<p>Setomi is coming to the App Store. Leave your email and you'll get one message when it's live.</p>
+<form class="waitlist" data-waitlist novalidate>
+<label class="sr" for="email-cta">Email address</label>
+<input id="email-cta" type="email" name="email" placeholder="you@email.com" autocomplete="email" required>
+<input class="hp" type="text" name="company" tabindex="-1" autocomplete="off" aria-hidden="true">
+<button type="submit">Join the waitlist</button>
+<p class="note" role="status" aria-live="polite">No spam. Unsubscribe by replying.</p>
+</form>
+</section>
 
 <p style="text-align:center">Questions? Visit <a href="support.html">Support</a>. Read the <a href="privacy.html">Privacy Policy</a>.</p>
 </main>
 <footer><span>&copy; 2026 Dylan McCoy</span><span><a href="privacy.html">Privacy Policy</a> &middot; <a href="support.html">Support</a></span></footer>
 </div>
+<script>
+// Launch switch: when Setomi is live, put its App Store link here and the waitlist forms turn into a download button.
+var APP_STORE_URL = "";
+if (APP_STORE_URL) {
+  document.querySelectorAll("[data-waitlist]").forEach(function (form) {
+    var link = document.createElement("a"); link.href = APP_STORE_URL; link.className = "navcta"; link.textContent = "Download on the App Store";
+    form.replaceWith(link);
+  });
+  document.querySelectorAll(".navcta").forEach(function (a) { if (a.getAttribute("href") === "#join") { a.href = APP_STORE_URL; a.textContent = "Download"; } });
+}
+// Waitlist. Set ENDPOINT to a form service URL that accepts a JSON POST with an "email" field (Formspree, Basin, Buttondown and
+// similar). While it is empty, the form opens a pre-filled email to the address below instead, so no signup is ever lost.
+var ENDPOINT = "";
+var FALLBACK_EMAIL = "dylanrmccoy@yahoo.com";
+document.querySelectorAll("[data-waitlist]").forEach(function (form) {
+  var note = form.querySelector(".note"), button = form.querySelector("button");
+  form.addEventListener("submit", function (e) {
+    e.preventDefault();
+    var email = form.email.value.trim();
+    if (form.company.value) return;                      // a bot filled the hidden field
+    if (!/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(email)) { note.textContent = "That email doesn't look right. Check it and try again."; form.email.focus(); return; }
+    if (!ENDPOINT) {
+      window.location.href = "mailto:" + FALLBACK_EMAIL + "?subject=" + encodeURIComponent("Setomi waitlist") + "&body=" + encodeURIComponent("Please add me to the Setomi waitlist: " + email);
+      note.textContent = "Your email app should open with a message to send.";
+      return;
+    }
+    button.disabled = true; button.textContent = "Joining…";
+    fetch(ENDPOINT, { method: "POST", headers: { "Content-Type": "application/json", "Accept": "application/json" }, body: JSON.stringify({ email: email }) })
+      .then(function (r) { if (!r.ok) throw new Error(); form.classList.add("done"); form.innerHTML = '<p class="thanks" role="status">You\'re on the list. We\'ll email you once, when Setomi is live.</p>'; })
+      .catch(function () { button.disabled = false; button.textContent = "Join the waitlist"; note.textContent = "Couldn't join just now. Try again in a moment."; });
+  });
+});
+</script>
 </body>
 </html>
