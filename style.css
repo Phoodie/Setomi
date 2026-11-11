@@ -47,4 +47,4 @@ h1 em{font-style:normal;color:var(--volt)}
 .short{border:1px solid #2c2f29;border-radius:16px;padding:18px;margin:0 0 8px}
 footer{border-top:1px solid var(--line);margin-top:56px;padding:26px 0 44px;color:var(--mute);font-size:.9rem;display:flex;flex-wrap:wrap;gap:8px 20px;justify-content:space-between}
 footer a{color:var(--mute)}
-@media (max-width:720px){.hero,.proof,.proof.flip{grid-template-columns:1fr;gap:36px;padding:52px 0}.proof.flip>img{order:0}.device{max-width:240px}nav a:not(.navcta){display:none}}
+@media (max-width:720px){.hero,.proof,.proof.flip{grid-template-columns:1fr;gap:36px;padding:52px 0}.proof.flip>img{order:0}.device{max-width:240px}nav:has(.navcta) a:not(.navcta){display:none}}
