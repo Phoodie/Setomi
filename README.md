@@ -1,6 +1,6 @@
 # Setomi website
 
-The public site for **Setomi**, an iPhone and Apple Watch workout logger: your plan, set by set. No account, no subscription.
+The public site for **Setomi**, the lifting log for iPhone and Apple Watch that starts from the plan you already have. No subscription. No account.
 
 - Home: https://phoodie.github.io/Setomi/
 - Privacy policy: https://phoodie.github.io/Setomi/privacy.html
